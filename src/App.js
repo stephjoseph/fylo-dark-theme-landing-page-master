@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="grid place-items-center bg-[#1B2330]">
-      <header className="App-header">asdasdss</header>
+      <Header />
+      <Main />
+      <Footer />
       Features Team Sign In All your files in one secure location, accessible
       anywhere. Fylo stores all your most important files in one secure
       location. Access them wherever you need, share and collaborate with
