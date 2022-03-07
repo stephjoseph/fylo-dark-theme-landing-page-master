@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimony = (props) => {
   return (
-    <div className="flex w-full flex-col gap-[1.063rem] rounded-[3.93px] bg-[#202A3C] px-5 pt-6 pb-[1.313rem]">
+    <div className="flex w-full flex-col gap-[1.063rem] rounded-[3.93px] bg-[#202A3C] px-5 pt-6 pb-[1.313rem] shadow-[0px_0px_8px_4px_rgba(56,56,56,0.0459)]">
       <blockquote className="text-[0.625rem] font-normal leading-[1.125rem] tracking-normal text-white">
         Fylo has improved our team productivity by an order of magnitude. Since
         making the switch our team has become a well-oiled collaboration
