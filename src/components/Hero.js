@@ -21,7 +21,7 @@ const Hero = () => {
           family, and co-workers.
         </p>
         <a
-          className="flex h-12 w-[15rem] items-center justify-center rounded-[24px] bg-gradient-to-br from-[#63CAE1] to-[#34A0CD] font-['Raleway'] text-[0.875rem] font-bold leading-6 tracking-normal text-white shadow-[2px_3px_6px_0px_rgba(0,0,0,0.1593)] xl:h-14 xl:w-[17.5rem] xl:rounded-[28px] xl:text-base xl:leading-[1.188rem]"
+          className="flex h-12 w-[15rem] items-center justify-center rounded-[24px] bg-gradient-to-br from-[#63CAE1] to-[#34A0CD] font-['Raleway'] text-[0.875rem] font-bold leading-6 tracking-normal text-white shadow-[2px_3px_6px_0px_rgba(0,0,0,0.1593)] active:from-[#8ADAE3] active:to-[#8ADAE3] xl:h-14 xl:w-[17.5rem] xl:rounded-[28px] xl:text-base xl:leading-[1.188rem]"
           href="#"
         >
           Get Started
