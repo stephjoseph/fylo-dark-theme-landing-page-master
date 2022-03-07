@@ -14,7 +14,7 @@ const Navbar = () => {
       <ul className="flex items-center gap-6 xl:gap-[3.625rem]">
         <li>
           <a
-            className="font-['Raleway'] text-[0.75rem] font-normal leading-[0.875rem] tracking-normal text-white xl:text-base xl:leading-[1.188rem]"
+            className="font-['Raleway'] text-[0.75rem] font-normal leading-[0.875rem] tracking-normal text-white hover:underline xl:text-base xl:leading-[1.188rem]"
             href="#"
           >
             Features
@@ -22,7 +22,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="font-['Raleway'] text-[0.75rem] font-normal leading-[0.875rem] tracking-normal text-white xl:text-base xl:leading-[1.188rem]"
+            className="font-['Raleway'] text-[0.75rem] font-normal leading-[0.875rem] tracking-normal text-white hover:underline xl:text-base xl:leading-[1.188rem]"
             href="#"
           >
             Team
@@ -30,7 +30,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            className="font-['Raleway'] text-[0.75rem] font-normal leading-[0.875rem] tracking-normal text-white xl:text-base xl:leading-[1.188rem]"
+            className="font-['Raleway'] text-[0.75rem] font-normal leading-[0.875rem] tracking-normal text-white hover:underline xl:text-base xl:leading-[1.188rem]"
             href="#"
           >
             Sign in
