@@ -6,11 +6,11 @@ import Testimony from "./Testimony";
 
 const Testimonials = () => {
   return (
-    <div className="relative z-10 mb-[10rem] flex w-[17.5rem] flex-col items-center">
-      <p className="absolute left-0 top-0 -mt-[0.188rem] w-8 font-['Nunito_Sans'] text-[5rem] font-normal leading-[3.125rem] tracking-widest text-[#62E0D9]">
+    <div className="relative z-10 mb-[10rem] flex w-[17.5rem] flex-col items-center xl:mb-[12.563rem] xl:h-[16.188rem] xl:w-[73.75rem]">
+      <p className="absolute left-0 top-0 -mt-[0.188rem] w-8 font-['Nunito_Sans'] text-[5rem] font-normal leading-[3.125rem] tracking-widest text-[#62E0D9] xl:-ml-2 xl:text-[12.5rem] xl:leading-[12.5rem] xl:tracking-normal">
         “
       </p>
-      <div className="mt-[0.563rem] flex w-full flex-col items-center gap-6">
+      <div className="z-10 mt-[0.563rem] flex w-full flex-col items-center gap-6 xl:ml-[1.25rem] xl:mt-[3.688rem] xl:flex-row xl:gap-10">
         <Testimony
           img={Profile1}
           person="Satish Patel"
