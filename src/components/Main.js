@@ -6,7 +6,7 @@ import CTA from "./CTA";
 
 const Main = () => {
   return (
-    <main className="z-20 flex w-[21rem] flex-col items-center">
+    <main className="z-20 flex w-[21rem] flex-col items-center xl:w-[77.188rem]">
       <Features />
       <StayProductive />
       <Testimonials />
