@@ -15,11 +15,11 @@ const CTA = () => {
       </div>
       <form className="flex w-full flex-col items-center gap-6 xl:flex-row">
         <input
-          className="h-12 w-full rounded-[24px] px-[1.813rem] py-[1.188rem] text-[0.625rem] font-normal leading-[0.875rem] tracking-normal text-black shadow-[1px_1px_3px_0px_rgba(7,4,59,0.157)] placeholder:text-[0.625rem] placeholder:font-normal placeholder:leading-[0.875rem] placeholder:tracking-normal placeholder:text-[#C0C0C0] xl:w-[30rem] xl:placeholder:text-[0.75rem] xl:placeholder:leading-4"
+          className="h-12 w-full rounded-[24px] px-[1.813rem] py-[1.188rem] text-[0.625rem] font-normal leading-[0.875rem] tracking-normal text-black shadow-[1px_1px_3px_0px_rgba(7,4,59,0.157)] placeholder:text-[0.625rem] placeholder:font-normal placeholder:leading-[0.875rem] placeholder:tracking-normal placeholder:text-[#C0C0C0] focus:outline-none focus:outline-[#62E0D9] xl:w-[30rem] xl:text-[0.75rem] xl:leading-4 xl:placeholder:text-[0.75rem] xl:placeholder:leading-4"
           type="email"
           placeholder="email@example.com"
         />
-        <button className="flex h-12 w-full items-center justify-center rounded-[24px] bg-gradient-to-br from-[#63E1D9] to-[#34A0CD] font-['Raleway'] text-[0.875rem] font-bold capitalize leading-4 tracking-normal text-white shadow-[2px_3px_6px_0px_rgba(0,0,0,0.1593)] xl:w-[12.5rem]">
+        <button className="flex h-12 w-full items-center justify-center rounded-[24px] bg-gradient-to-br from-[#63E1D9] to-[#34A0CD] font-['Raleway'] text-[0.875rem] font-bold capitalize leading-4 tracking-normal text-white shadow-[2px_3px_6px_0px_rgba(0,0,0,0.1593)] active:from-[#8ADAE3] active:to-[#8ADAE3] xl:w-[12.5rem]">
           Get started for free
         </button>
       </form>
