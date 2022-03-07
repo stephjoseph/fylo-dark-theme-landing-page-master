@@ -6,7 +6,7 @@ import Testimony from "./Testimony";
 
 const Testimonials = () => {
   return (
-    <div className="relative z-10 flex w-[17.5rem] flex-col items-center pb-[10rem]">
+    <div className="relative z-10 mb-[10rem] flex w-[17.5rem] flex-col items-center">
       <p className="absolute left-0 top-0 -mt-[0.188rem] w-8 font-['Nunito_Sans'] text-[5rem] font-normal leading-[3.125rem] tracking-widest text-[#62E0D9]">
         “
       </p>
