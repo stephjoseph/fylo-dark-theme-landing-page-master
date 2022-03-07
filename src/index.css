@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .grid-1 {
+    @apply xl:w-[21.813rem];
+  }
+}
