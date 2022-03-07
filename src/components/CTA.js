@@ -2,7 +2,7 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <section className="z-10 flex w-[21rem] flex-col items-center gap-8 rounded-[9px] bg-[#1B2330] px-[1.75rem] pt-10 pb-[2.313rem]">
+    <section className="z-10 flex w-[21rem] flex-col items-center gap-8 rounded-[9px] bg-[#1B2330] px-[1.75rem] pt-10 pb-[2.313rem] shadow-[5px_5px_8px_0px_rgba(0,0,0,0.2543)]">
       <div className="flex w-full flex-col items-center gap-4 text-center">
         <h2 className="font-['Raleway'] text-lg font-bold leading-6 tracking-normal text-white">
           Get early access today
