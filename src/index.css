@@ -9,3 +9,13 @@
     @apply xl:w-[21.813rem];
   }
 }
+
+@layer utilities {
+  .email-input {
+    @apply h-12 w-full rounded-[24px] px-[1.813rem] py-[1.188rem] text-[0.625rem] font-normal leading-[0.875rem] tracking-normal text-black shadow-[1px_1px_3px_0px_rgba(7,4,59,0.157)] placeholder:text-[0.625rem] placeholder:font-normal placeholder:leading-[0.875rem] placeholder:tracking-normal placeholder:text-[#C0C0C0] focus:outline-none focus:ring focus:ring-[#62E0D9] xl:w-[30rem] xl:py-4 xl:px-[2.375rem] xl:text-[0.75rem] xl:leading-4 xl:placeholder:text-[0.75rem] xl:placeholder:leading-4;
+  }
+
+  .invalid-input {
+    @apply ring ring-red-500 focus:ring-red-500;
+  }
+}
