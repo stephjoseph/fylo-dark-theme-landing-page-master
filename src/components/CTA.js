@@ -60,7 +60,7 @@ const CTA = () => {
         />
 
         {error && (
-          <p className="absolute left-[2.375rem] top-[3.313rem] text-[0.625rem] font-bold leading-[0.875rem] tracking-normal text-[#FF4242]">
+          <p className="absolute left-[1.813rem] top-[3.313rem]  text-[0.625rem] font-bold leading-[0.875rem] tracking-normal text-[#FF4242] xl:left-[2.375rem]">
             Error, check your email
           </p>
         )}
